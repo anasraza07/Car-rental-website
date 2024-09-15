@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Remove bottom space for images/videos */
+  object-fit: cover;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit; /* Inherit font from parent */
+  font-size: inherit;
+  border: none;
+  background: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+fieldset {
+  border: none;
+}
+
+/* Additional styling for common elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+code,
+pre {
+  font-family: monospace;
+}
+
+#top-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  z-index: 100;
+  background-color: #000;
+  color: #ffffff;
+}
+
+#top-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

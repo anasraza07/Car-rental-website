@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Task 02</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/utilities.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo-and-search">
+                <div class="logo">MORENT</div>
+                <div id="search">
+                    <img src="./img/magnifying-glass.png" alt="">
+                    <input type="search" name="" id="" placeholder="Search something here">
+                    <img src="./img/filter.png" alt="">
+                </div>
+            </div>
+            <div id="profile-and-notification">
+                <div class="container"><img src="./img/heart.png" alt=""></div>
+                <div class="container"><img src="./img/notification.png" alt=""></div>
+                <div class="container"><img src="./img/settings.png" alt=""></div>
+                <img src="./img/profile-picture.png" alt="" id="profile-picture">
+            </div>
+        </nav>
+    </header>
+
+    <main id="content">
+        <div id="ads-container">
+            <div class="ad-item" id="ad1">
+                <div class="ad-content">
+                    <h2>The Best Platform for Car Rental</h2>
+                    <p>Ease of doing a car rental safely and reliably. Of course at a low price.</p>
+                    <button class="dark-bg">Rental Car</button>
+                </div>
+                <div class="ads-image-container">
+                    <img src="/img/car.png" alt="">
+                </div>
+                <div class="eclipse" id="eclipse-01"></div>
+                <div class="eclipse" id="eclipse-02"></div>
+                <div class="eclipse" id="eclipse-03"></div>
+                <div class="eclipse" id="eclipse-04"></div>
+                <div class="eclipse" id="eclipse-05"></div>
+                <div class="eclipse" id="eclipse-06"></div>
+                <div class="eclipse" id="eclipse-07"></div>
+            </div>
+            <div class="ad-item" id="ad2">
+                <div class="ad-content">
+                    <h2>Easy way to rent a car at a low price</h2>
+                    <p>Providing cheap car rental services and safe and comfortable facilities.</p>
+                    <button class="light-bg">Rental Car</button>
+                </div>
+                <div class="ads-image-container" id="img-02">
+                    <img src="./img/car 02.png" alt="">
+                </div>
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-01" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-02" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-03" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-04" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-05" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-06" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-07" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-08" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-09" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-10" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-11" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-12" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-13" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-14" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-15" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-16" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-17" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-18" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-19" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-20" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-21" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-22" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-23" />
+                <img src="./img/rectangle.png" class="rectangle" id="rectangle-24" />
+            </div>
+        </div>
+        <div id="pickup-dropoff">
+            <div class="select-inputs" id="pickup-container">
+                <label for="pickup" class="first-label"><input type="radio" id="pickup" value="pickup" name="pickup">
+                    Pick - Up</label>
+                <div class="selection-row">
+                    <div class="selection-container" id="location-selection">
+                        <label for="location-selection">Locations <select name="" id="location-selection">
+                                <option value="">Select your city</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="horizontal-divider"></div>
+                    <div class="selection-container" id="date-selection">
+                        <label for="date-selection">Date <select name="" id="date-selection">
+                                <option value="">Select your date</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="horizontal-divider"></div>
+                    <div class="selection-container" id="time-selection">
+                        <label for="time-selection">Time <select name="" id="time-selection">
+                                <option value="">Select your time</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div id="switch"><img src="./img/switch-arrow.png" alt=""></div>
+            <div class="select-inputs" id="dropoff-container">
+                <label for="dropoff" class="first-label"><input type="radio" id="dropoff" value="dropoff"
+                        name="dropoff"> Drop - Off</label>
+                <div class="selection-row">
+                    <div class="selection-container" id="location-selection">
+                        <label for="location-selection">Locations <select name="" id="location">
+                                <option value="">Select your city</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="horizontal-divider"></div>
+                    <div class="selection-container" id="date-selection">
+                        <label for="date-selection">Date <select name="" id="date">
+                                <option value="">Select your date</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="horizontal-divider"></div>
+                    <div class="selection-container" id="time-selection">
+                        <label for="time-selection">Time <select name="" id="time">
+                                <option value="">Select your time</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="catalogue-car">
+            <div class="car-rent-container" id="popular-car-rent">
+                <div class="car-rent-header">
+                    <div class="heading">Popular Car</div>
+                    <div class="view-all">View All</div>
+                </div>
+                <div class="car-rent-items" id="js-popular-car-items">
+                    <!-- <div class="catalog">
+                        <div class="catalog-main">
+                            <div class="name-and-like">
+                                <div class="car-name">
+                                    <div class="name">Koenigsegg</div>
+                                    <div class="type">Sport</div>
+                                </div>
+                                <div class="like-icon">
+                                    <img src="./img/catalog-heart-icon.png" alt="">
+                                </div>
+                            </div>
+                            <img src="./img/carImages/catalogue-car-01.png" alt="">
+                            <div class="spesification">
+                                <div class="item" id="gasoline">
+                                    <img src="./img/gasoline.png" alt="">
+                                    <div class="text">90L</div>
+                                </div>
+                                <div class="item" id="car-type">
+                                    <img src="./img/car-type.png" alt="">
+                                    <div class="text">Manual</div>
+                                </div>
+                                <div class="item" id="capacity">
+                                    <img src="./img/capacity.png" alt="">
+                                    <div class="text">2 People</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-footer">
+                            <div class="price">$99.00/ <span>day</span></div>
+                            <button class="rental-btn">Rent Now</button>
+                        </div>
+                        <div class="shadow"></div>
+                    </div>
+                    <div class="catalog">
+                        <div class="catalog-main">
+                            <div class="name-and-like">
+                                <div class="car-name">
+                                    <div class="name">Nissan GT - R</div>
+                                    <div class="type">Sport</div>
+                                </div>
+                                <div class="like-icon">
+                                    <img src="./img/catalog-heart-icon.png" alt="">
+                                </div>
+                            </div>
+                            <img src="./img/carImages/catalogue-car-01.png" alt="">
+                            <div class="spesification">
+                                <div class="item" id="gasoline">
+                                    <img src="./img/gasoline.png" alt="">
+                                    <div class="text">90L</div>
+                                </div>
+                                <div class="item" id="car-type">
+                                    <img src="./img/car-type.png" alt="">
+                                    <div class="text">Manual</div>
+                                </div>
+                                <div class="item" id="capacity">
+                                    <img src="./img/capacity.png" alt="">
+                                    <div class="text">2 People</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-footer">
+                            <div class="price">$99.00/ <span>day</span>
+                                <div class="strike-text"><del>$100.00</del></div>
+                            </div>
+                            <button class="rental-btn">Rent Now</button>
+                        </div>
+                        <div class="shadow"></div>
+                    </div>
+                    <div class="catalog">
+                        <div class="catalog-main">
+                            <div class="name-and-like">
+                                <div class="car-name">
+                                    <div class="name">Koenigsegg</div>
+                                    <div class="type">Sport</div>
+                                </div>
+                                <div class="like-icon">
+                                    <img src="./img/catalog-heart-icon.png" alt="">
+                                </div>
+                            </div>
+                            <img src="./img/carImages/catalogue-car-01.png" alt="">
+                            <div class="spesification">
+                                <div class="item" id="gasoline">
+                                    <img src="./img/gasoline.png" alt="">
+                                    <div class="text">90L</div>
+                                </div>
+                                <div class="item" id="car-type">
+                                    <img src="./img/car-type.png" alt="">
+                                    <div class="text">Manual</div>
+                                </div>
+                                <div class="item" id="capacity">
+                                    <img src="./img/capacity.png" alt="">
+                                    <div class="text">2 People</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-footer">
+                            <div class="price">$99.00/ <span>day</span></div>
+                            <button class="rental-btn">Rent Now</button>
+                        </div>
+                        <div class="shadow"></div>
+                    </div>
+                    <div class="catalog">
+                        <div class="catalog-main">
+                            <div class="name-and-like">
+                                <div class="car-name">
+                                    <div class="name">Koenigsegg</div>
+                                    <div class="type">Sport</div>
+                                </div>
+                                <div class="like-icon">
+                                    <img src="./img/catalog-heart-icon.png" alt="">
+                                </div>
+                            </div>
+                            <img src="./img/carImages/catalogue-car-01.png" alt="">
+                            <div class="spesification">
+                                <div class="item" id="gasoline">
+                                    <img src="./img/gasoline.png" alt="">
+                                    <div class="text">90L</div>
+                                </div>
+                                <div class="item" id="car-type">
+                                    <img src="./img/car-type.png" alt="">
+                                    <div class="text">Manual</div>
+                                </div>
+                                <div class="item" id="capacity">
+                                    <img src="./img/capacity.png" alt="">
+                                    <div class="text">2 People</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-footer">
+                            <div class="price">$99.00/ <span>day</span></div>
+                            <button class="rental-btn">Rent Now</button>
+                        </div>
+                        <div class="shadow"></div>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="car-rent-container" id="recommendation-car-rent">
+                <div class="car-rent-header">
+                    <div class="heading">Recomendation Car</div>
+                </div>
+
+                <div class="car-rent-items recommendation-car-items" id="js-recommendation-car-items">
+                    <!-- <div class="catalog">
+                        <div class="catalog-main">
+                            <div class="name-and-like">
+                                <div class="car-name">
+                                    <div class="name">Koenigsegg</div>
+                                    <div class="type">Sport</div>
+                                </div>
+                                <div class="like-icon">
+                                    <img src="./img/catalog-heart-icon.png" alt="">
+                                </div>
+                            </div>
+                            <img src="./img/carImages/catalogue-car-01.png" alt="">
+                            <div class="spesification">
+                                <div class="item" id="gasoline">
+                                    <img src="./img/gasoline.png" alt="">
+                                    <div class="text">90L</div>
+                                </div>
+                                <div class="item" id="car-type">
+                                    <img src="./img/car-type.png" alt="">
+                                    <div class="text">Manual</div>
+                                </div>
+                                <div class="item" id="capacity">
+                                    <img src="./img/capacity.png" alt="">
+                                    <div class="text">2 People</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-footer">
+                            <div class="price">$99.00/ <span>day</span></div>
+                            <button class="rental-btn">Rent Now</button>
+                        </div>
+                        <div class="shadow"></div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div id="show-more">
+            <button id="show-more-btn">Show more car</button>
+            <div id="car-counts">120 Cars</div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div id="first">
+            <div id="footer-logo">
+                <div class="logo">MORENT</div>
+                <p>Our vision is to provide convenience and help increase your sales business.</p>
+            </div>
+            <div id="footer-links">
+                <div class="link">
+                    <div class="link-heading">About</div>
+                    <div class="link-items">
+                        <div class="link-item">How it works</div>
+                        <div class="link-item">Featured</div>
+                        <div class="link-item">Partnership</div>
+                        <div class="link-item">Bussiness Relation</div>
+                    </div>
+                </div>
+                <div class="link">
+                    <div class="link-heading">Community</div>
+                    <div class="link-items">
+                        <div class="link-item">Events</div>
+                        <div class="link-item">Blog</div>
+                        <div class="link-item">Podcast</div>
+                        <div class="link-item">Invite a friend</div>
+                    </div>
+                </div>
+                <div class="link">
+                    <div class="link-heading">Socials</div>
+                    <div class="link-items">
+                        <div class="link-item">Discord</div>
+                        <div class="link-item">Instagram</div>
+                        <div class="link-item">Twitter</div>
+                        <div class="link-item">Facebook</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line" id="second"></div>
+        <div id="third">
+            <p>©2022 MORENT. All rights reserved</p>
+            <div id="privacy-terms">
+                <p>Privacy & Policy</p>
+                <p>Terms & Condition</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
