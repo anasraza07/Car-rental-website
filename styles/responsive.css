@@ -1,0 +1,213 @@
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+
+  #navbar {
+    min-height: 100px;
+    padding: 0 16px;
+  }
+
+  #logo-and-search {
+    gap: 32px;
+    padding-left: 0;
+  }
+
+  #logo-and-search #search {
+    padding: 10px;
+  }
+
+  #search img:first-of-type {
+    display: none;
+  }
+
+  #profile-and-notification .container {
+    display: none;
+  }
+
+  #content {
+    padding: 0 24px 64px;
+  }
+
+  #ads-container {
+    flex-wrap: wrap;
+  }
+
+  .ad-item .ad-content {
+    margin-bottom: 20px;
+  }
+
+  .ads-image-container {
+    min-width: 106px;
+  }
+
+  #img-02 {
+    margin-left: 100px;
+  }
+
+  #pickup-dropoff {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .selection-row {
+    /* display: block; */
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .select-inputs {
+    width: 100%;
+    padding: 24px;
+  }
+
+  .car-rent-items {
+    flex-wrap: wrap;
+  }
+
+  .car-rent-items .catalog {
+    width: 100%;
+  }
+
+  .spesification,
+  .catalog-footer {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .recommendation-car-items {
+    grid-template-columns: 1fr;
+  }
+
+  #footer {
+    padding: 60px 20px 40px;
+  }
+
+  #first {
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: space-between; */
+    /* margin: auto; */
+  }
+
+  #footer-links {
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 40px 60px;
+  }
+
+  #footer #third {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px 0;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+
+  #navbar {
+    min-height: 100px;
+    padding: 0 16px;
+  }
+
+  #logo-and-search {
+    gap: 32px;
+    padding-left: 0;
+  }
+
+  #logo-and-search #search {
+    padding: 10px;
+  }
+
+  #search img:first-of-type {
+    display: none;
+  }
+
+  #profile-and-notification {
+    gap: 10px;
+  }
+
+  #profile-and-notification .container {
+    display: grid;
+  }
+
+  #content {
+    padding: 0 24px 64px;
+  }
+
+  #ads-container {
+    flex-wrap: wrap;
+  }
+
+  .ad-item .ad-content {
+    margin-bottom: 20px;
+  }
+
+  .ads-image-container {
+    min-width: 106px;
+  }
+
+  #img-02 {
+    margin-left: 100px;
+  }
+
+  #pickup-dropoff {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .selection-row {
+    /* display: block; */
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .select-inputs {
+    width: 100%;
+    padding: 24px;
+  }
+
+  .car-rent-items {
+    flex-wrap: wrap;
+  }
+
+  .car-rent-items .catalog {
+    width: 100%;
+  }
+
+  .spesification,
+  .catalog-footer {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .recommendation-car-items {
+    grid-template-columns: 1fr;
+  }
+
+  #footer {
+    padding: 60px 20px 40px;
+  }
+
+  #first {
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: space-between; */
+    /* margin: auto; */
+  }
+
+  #footer-links {
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 40px 60px;
+  }
+
+  #footer #third {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px 0;
+  }
+}

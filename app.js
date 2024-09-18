@@ -198,7 +198,8 @@ popularCars.forEach(car => {
                     </div>
                 </div>
                 <div class='car-image-container'>
-                    <img src="./img/carImages/recommendation/Car-${car.carImage < 10 ? ('0' + String(car.carImage)) : car.carImage}.png" alt="">
+                    <img src="./img/carImages/popular/catalogue-car-${car.carImage < 10 ? ('0' + String(car.carImage)) : car.carImage}.png" alt="">
+                    <div class="shadow"></div>
                 </div>
                 <div class="spesification">
                     <div class="item" id="gasoline">
@@ -222,12 +223,11 @@ popularCars.forEach(car => {
                 </div>
                 <button class="rental-btn">Rent Now</button>
             </div>
-            <div class="shadow"></div>
         </div>
     `;
 })
 
-console.log(popularCarHTML);
+// console.log(popularCarHTML);
 
 document.querySelector('#js-popular-car-items')
     .innerHTML = popularCarHTML;
@@ -271,12 +271,11 @@ recommendationCars.forEach(car => {
                 </div>
                 <button class="rental-btn">Rent Now</button>
             </div>
-            <div class="shadow"></div>
         </div>
     `;
 })
 
-console.log(recommendationCarHTML);
+// console.log(recommendationCarHTML);
 
 document.querySelector('#js-recommendation-car-items')
     .innerHTML = recommendationCarHTML;
